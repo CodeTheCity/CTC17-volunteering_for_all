@@ -1,0 +1,45 @@
+/* mobile first */
+
+body {
+  background-color: black;
+  color: #ed639a;
+  text-align: center;
+}
+
+ul {
+  padding: 0px;
+}
+
+.nav,
+.links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+li {
+  padding-top: 0.35em;
+  padding-bottom: 0.35em;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  color: white;
+}
+
+/* above 500px width */
+@media screen and (min-width: 500px) {
+  .nav {
+    flex-direction: row;
+  }
+
+  li {
+    padding: 1em;
+    font-size: 1.25em;
+  }
+}
