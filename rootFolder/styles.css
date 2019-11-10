@@ -23,6 +23,26 @@ li {
   padding-bottom: 0.35em;
 }
 
+.main-container {
+  position: relative;
+}
+
+.main-tag {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 2px solid white;
+  position: absolute;
+  width: 80%;
+  height: 50%;
+  margin-left: 5.5%;
+  margin-top: 12.5%;
+  z-index: 1;
+  padding: 15px;
+  background-color: black;
+  opacity: 0.8;
+}
+
 img {
   width: 100%;
   height: auto;
@@ -32,8 +52,8 @@ footer {
   color: white;
 }
 
-/* above 500px width */
-@media screen and (min-width: 500px) {
+/* above 600px width */
+@media screen and (min-width: 600px) {
   .nav {
     flex-direction: row;
   }
@@ -42,4 +62,13 @@ footer {
     padding: 1em;
     font-size: 1.25em;
   }
+
+  .main-tag {
+    margin-left: 7.5%;
+    margin-top: 15.5%;
+  }
+}
+
+/* above 1000px width */
+@media screen and (min-width: 1000px) {
 }
