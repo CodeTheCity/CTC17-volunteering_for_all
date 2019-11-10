@@ -41,6 +41,14 @@ a {
   font-weight: bold;
 }
 
+header a:hover {
+  color: #ed639a;
+}
+
+main a:hover {
+  color: #ffdc34;
+}
+
 .main-container {
   position: relative;
 }
