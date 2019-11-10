@@ -27,3 +27,18 @@ Could possibly do a better job of tying in to this so that things are cross post
 # Do things the other way round
 
 We think it would be useful to have the mirror version of the above listings where people with tech skills can register their interest in helping out charities, and then when charities need such help they can search and match to volunteers. 
+
+# Progress over the hack weekend
+
+Draft user stories were created to describe the scenario we were attempting to address.
+
+A prototype website and database were created to allow the input and retrieval of charities and individuals needs.
+
+Upon entering the homepage the user presses a button to say if they are an individual volunteering their services or a charity to looking for digital skills. 
+
+The user is then direct to a page:
+for an individual - they are requested to say what type of services they can provide and which type of charities they would prefer to assist. 
+for a charity - they select the skills they need and state which sector(s) their charity is within.
+
+
+
