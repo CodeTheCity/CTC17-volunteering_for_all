@@ -7,14 +7,19 @@
 <body>
 
 <header>
-    <h2>Find a volunteer</h2>
+    <h2>Want to volunteer</h2>
 </header>
 
 <main>
-    <p>To request a volunteer for your charity please complete the following fields:</p>
+    <p>To set up as a volunteer please complete the following fields:</p>
+
+
 
     <form>
-        <p>Select charity categories into which you fall:</p>
+        <p>Email:</p>
+        <input type="email" name="email" required>
+
+        <p>Select charity categories you would be willing to offer your skills:</p>
         <input type="checkbox" name="" value="">Advice & advocacy<br>
         <input type="checkbox" name="" value="">Anti-Poverty<br>
         <input type="checkbox" name="" value="">Arts & culture <br>
@@ -32,11 +37,11 @@
         <input type="checkbox" name="" value="">Youth & children <br>
         <input type="checkbox" name="" value="">Other<br>
         <br>
-        
 
-    <p>Select digital skills required:</p>
 
-    
+    <p>Select digital skills you could provide:</p>
+
+
         <input type="checkbox" name="" value="">Social media<br>
         <input type="checkbox" name="" value="">Create/update website<br>
         <input type="checkbox" name="" value="">Create an email mailing list<br>
@@ -52,7 +57,12 @@
         <input type="checkbox" name="" value="">Database assistance<br>
         <input type="checkbox" name="" value="">IT projects<br>
         <br>
+
+        <p>Bio: (optional)</p>
+        <textarea name="message" rows="10" cols="30" maxlength="240"></textarea>
+        <br>
         <input type="submit" value="Submit">
+        <input type="reset">
     </form>
 
 

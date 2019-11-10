@@ -1,4 +1,4 @@
-from flask import request, jsonify, Response, json, redirect, abort, render_template, session, json
+from flask import request, jsonify, Response, json, redirect, abort, render_template, session
 from app import app, get_db
 
 @app.route('/')
