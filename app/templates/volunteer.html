@@ -1,5 +1,67 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1>TODO: content</h1>
+<header>
+    <h2>Want to volunteer</h2>
+</header>
+
+<main>
+    <p>To set up as a volunteer please complete the following fields:</p>
+
+
+
+    <form action="#" method="post">
+        <p>Email:</p>
+        <input type="email" name="email" required>
+
+        <p>Select charity categories you would be willing to offer your skills:</p>
+        <input type="checkbox" name="" value="">Advice & advocacy<br>
+        <input type="checkbox" name="" value="">Anti-Poverty<br>
+        <input type="checkbox" name="" value="">Arts & culture <br>
+        <input type="checkbox" name="" value="">Care & counselling<br>
+        <input type="checkbox" name="" value="">Community <br>
+        <input type="checkbox" name="" value="">Crime & ex-offenders <br>
+        <input type="checkbox" name="" value="">Development & emergency relief <br>
+        <input type="checkbox" name="" value="">Disability <br>
+        <input type="checkbox" name="" value="">Education & languages <br>
+        <input type="checkbox" name="" value="">Elderly <br>
+        <input type="checkbox" name="" value="">Environment & animals <br>
+        <input type="checkbox" name="" value="">Health <br>
+        <input type="checkbox" name="" value="">Represented groups <br>
+        <input type="checkbox" name="" value="">Unemployment <br>
+        <input type="checkbox" name="" value="">Youth & children <br>
+        <input type="checkbox" name="" value="">Other<br>
+        <br>
+
+
+    <p>Select digital skills you could provide:</p>
+
+
+        <input type="checkbox" name="" value="">Social media<br>
+        <input type="checkbox" name="" value="">Create/update website<br>
+        <input type="checkbox" name="" value="">Create an email mailing list<br>
+        <input type="checkbox" name="" value="">Add analytics to understand who is using your website<br>
+        <input type="checkbox" name="" value="">Create an online newsletter/bulletin<br>
+        <input type="checkbox" name="" value="">Ability to setup online fundraising/donations<br>
+        <input type="checkbox" name="" value="">Listing items on ebay<br>
+        <input type="checkbox" name="" value="">Design online survey/feedback<br>
+        <input type="checkbox" name="" value="">Set up new hardware<br>
+        <input type="checkbox" name="" value="">Set up new software<br>
+        <input type="checkbox" name="" value="">Training in how to use software<br>
+        <input type="checkbox" name="" value="">Set up ecommerce within existing website<br>
+        <input type="checkbox" name="" value="">Database assistance<br>
+        <input type="checkbox" name="" value="">IT projects<br>
+        <br>
+
+        <p>Information you would like the charity to take into account: </p>
+        <textarea name="message" rows="10" cols="30" maxlength="240" placeholder='How much time do you wish to donate? Any past experience of helping charities with digital skills? Anything else.'></textarea>
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset">
+    </form>
+
+
+
+</main>
+
 {% endblock %}

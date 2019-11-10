@@ -1,5 +1,5 @@
 from flask import request, jsonify, Response, json, redirect, abort, render_template, session
-from app import app, get_db
+from app import app, db, Volunteer, Charity, Category, Skill, Task, Match
 
 @app.route('/')
 def homepage():
@@ -11,6 +11,13 @@ def volunteer():
         return render_template("volunteer.html")
     else:
         # save details
+        v = Volunteer(
+            email=request.form["email"],
+            bio=request.form["message"]
+        )
+        db.session.add(v)
+        db.session.commit()
+        # TODO: save skills and category interest
         return render_template("thanks.html")
 
 @app.route('/search', methods=['GET', 'POST'])
