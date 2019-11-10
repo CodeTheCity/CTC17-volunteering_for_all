@@ -36,8 +36,8 @@ A prototype website and database were created to allow the input and retrieval o
 Upon entering the homepage the user presses a button to say if they are an individual volunteering their services or a charity to looking for digital skills. 
 
 The user is then direct to a page:
-¶for an individual - they are requested to say what type of services they can provide and which type of charities they would prefer to assist. 
-¶for a charity - they select the skills they need and state which sector(s) their charity is within.
+- for an individual - they are requested to say what type of services they can provide and which type of charities they would prefer to assist. 
+- for a charity - they select the skills they need and state which sector(s) their charity is within.
 
 Once the user has completed the webform they are directed to a page which acknowledges their submission.
 
