@@ -10,6 +10,12 @@ ul {
   padding: 0px;
 }
 
+.main-h1__voluptuous {
+  font-weight: bolder;
+  font-family: "Baloo Bhai", cursive;
+  font-size: 1.2em;
+}
+
 .nav,
 .main-ul {
   list-style: none;
@@ -45,12 +51,12 @@ header a:hover {
   color: #ed639a;
 }
 
-main a:hover {
-  color: #ffdc34;
-}
-
 .main-container {
   position: relative;
+}
+
+main a:hover {
+  color: #ffdc34;
 }
 
 .main-tag {
