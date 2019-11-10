@@ -30,8 +30,7 @@ We think it would be useful to have the mirror version of the above listings whe
 
 # Progress over the hack weekend
 
-Draft user stories were created to describe the scenario we were attempting to address.https://github.com/CodeTheCity/volunteering_for_all/blob/master/user_stories.md
-
+Draft [user stories](https://github.com/CodeTheCity/volunteering_for_all/blob/master/user_stories.md) were created to describe the scenario we were attempting to address.
 A prototype website and database were created to allow the input and retrieval of charities and individuals needs.
 
 Upon entering the homepage the user presses a button to say if they are an individual volunteering their services or a charity to looking for digital skills. 
