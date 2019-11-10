@@ -37,19 +37,19 @@ class Volunteer(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     email = db.Column(db.String(80), unique=True, nullable=False)
     bio = db.Column(db.Text)
-    paused = db.Column(db.Boolean)
+    paused = db.Column(db.Boolean, default=False)
     skills = db.relationship('Skill', secondary=volunteer_skills, lazy='subquery',
-                             backref=db.backref('skill', lazy=True))
-    interested = db.relationship('Interested', secondary=volunteer_interest, lazy='subquery',
-                                 backref=db.backref('category', lazy=True))
+                             backref=db.backref('volunteers', lazy=True))
+    interested = db.relationship('Category', secondary=volunteer_interest, lazy='subquery',
+                                 backref=db.backref('volunteers', lazy=True))
     
 class Charity(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     email = db.Column(db.String(80), unique=True, nullable=False)
     name = db.Column(db.String(80), nullable=False)
     description = db.Column(db.Text)
-    categories = db.relationship('Categories', secondary=charity_category, lazy='subquery',
-                                 backref=db.backref('category', lazy=True))
+    categories = db.relationship('Category', secondary=charity_category, lazy='subquery',
+                                 backref=db.backref('charities', lazy=True))
     def __repr(self):
         return "<Charity: {}>".format(self.name)
 
